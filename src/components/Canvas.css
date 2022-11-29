@@ -1,0 +1,41 @@
+#myContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
+.header--rrt {
+    text-align: center;
+}
+
+.rrt-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: rgb(16, 90, 16);
+    background-image: url(./topography.svg);
+}
+
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 200px;
+    background-color: rgb(10, 170, 82);
+    padding: 40px 20px;
+}
+
+.obstacle-select-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.toggle-button {
+    width: 120px;
+    height: 30px;
+    margin: 20px 0;
+}

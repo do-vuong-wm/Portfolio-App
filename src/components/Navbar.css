@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+.navbar-container {
+    width: 100%;
+    height: 60px;
+    font-family: 'Poppins', sans-serif;
+    color:  white;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F0F3F; 
+    box-shadow: 0px 4px 10px 1px rgb(0, 0, 0, 0.2);
+}
+
+.navbar-header {
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: underline solid #3b3b81 3px;
+}
+
+.navbar-buttons-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.navbar-buttons-arrow {
+    height: 40px;
+}
+
+.navbar-buttons-trivia-game, .navbar-buttons-path-planning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #434380;
+    height: 100%;
+    cursor: pointer;
+}
+
+.navbar-buttons-trivia-game {
+    border-right: 1px solid black;
+}
+
+.navbar-buttons-trivia-game:hover, .navbar-buttons-path-planning:hover {
+    background-color: #8a8ac5;
+}
